@@ -73,7 +73,7 @@ nav {
 nav a {
   display: block;
   color: #FFF;
-  text-align:center;
+  text-align: center;
   font-size: 12px;
   font-weight: 400;
   line-height: normal;
@@ -112,7 +112,7 @@ nav.topnav a:hover {
   padding: 5px 5px 0px 5px;
   margin-left: 10px;
   color: #12203B;
-  background-color:#fff;
+  background-color: #fff;
   border: none;
   border-right: #4E4E4E solid 1px;
   border-radius: 0;
@@ -351,10 +351,10 @@ footer {
 
   /* CSS do Menu */
   nav.topnav {
-      padding: 5px;
-      display: flex;
-      align-items:center;
-      justify-content: space-between;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   #menuFundo {
@@ -362,23 +362,23 @@ footer {
   }
 
   nav.topnav a {
-      padding-left: 25px;
-      padding-right: 25px;
-      background-color: #1a1c39;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #1a1c39;
   }
 
   nav.topnav a.logo {
-      padding-left: 5px;
+    padding-left: 5px;
   }
 
   .topnav a:not(:first-child) {
-      display: none;
+    display: none;
   }
 
   .topnav a.icon {
-      float: right;
-      display: block;
-      margin-right: 10px;
+    float: right;
+    display: block;
+    margin-right: 10px;
   }
 
   i.fa {
@@ -389,23 +389,23 @@ footer {
     color: #FF7A00;
     border-bottom: none;
   }
-      
+
   .topnav.responsive {
-      flex-direction: column;
-      align-items:flex-start;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .topnav.responsive .icon {
-      position: absolute;
-      right: 5px;
-      top: 55px;
+    position: absolute;
+    right: 5px;
+    top: 55px;
   }
 
   .topnav.responsive a {
-      display: block;
-      text-align: left;
+    display: block;
+    text-align: left;
   }
-  
+
 }
 
 @media only screen and (max-width:959px) {
@@ -439,7 +439,7 @@ footer {
     padding: 5px 10px;
     font-size: 10px;
     font-weight: bold;
-}
+  }
 
   .destaques {
     width: 100%;
@@ -458,13 +458,14 @@ footer {
   .navios {
     width: 100%;
     margin: auto;
-}
-.exposicao-navios {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
+  }
+
+  .exposicao-navios {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 
 }
